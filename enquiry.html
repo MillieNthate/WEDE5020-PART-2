@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry - Amber's Braids</title>
+    <link rel="stylesheet" href="css_assets/style.css">
+</head>
+<body>
+    <header>
+        <h1>Amber's Braids</h1>
+        <img src="_images/the-logo.jpg.png" alt="logo" width="120">
+    </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+<!--Enquiry Form-->
+
+        <main>
+            <h2>Send Us Your Enquiry</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="subject">Subject:</label><br>
+                <select id="subject" name="subject">
+                    <option>Booking</option>
+                    <option>Price Enquiry</option>
+                    <option>General Question</option>
+                </select><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+    <footer><p>&copy; 2026 Amber's Braids. All rights reserved.</p></footer>
+</body>
+</html>
+
+<main>
+    <h2>Send Us Your Enquiry</h2>
+
+    <form>
+        <label>Name</label><input type="text">
+        <label>Email</label><input type="email">
+        <label>Which Style?</label>
+        <select>
+            <option>Knotless Braids</option>
+            <option>Goddess Braids</option>
+            <option>Island Twist</option>
+            <option>Twisted Locks</option>
+        </select>
+        <label>Message</label><textarea rows="5"></textarea>
+        <button class="btn" type="submit">Submit</button>
+    </form>
+</main>
